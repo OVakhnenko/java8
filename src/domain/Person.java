@@ -4,6 +4,11 @@ public class Person {
 
     private String name, surname;
 
+    public Person(String name) {
+        this.name = name;
+        this.surname = "";
+    }
+
     public Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
